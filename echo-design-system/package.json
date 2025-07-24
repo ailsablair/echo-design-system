@@ -1,0 +1,41 @@
+{
+  "name": "echo-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test:browser": "vitest --config=vitest.browser.config.js"
+  },
+  "dependencies": {
+    "next": "15.4.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.0.1",
+    "@storybook/addon-a11y": "^9.0.18",
+    "@storybook/addon-docs": "^9.0.18",
+    "@storybook/addon-vitest": "^9.0.18",
+    "@storybook/nextjs-vite": "^9.0.18",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4.7.0",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "playwright": "^1.54.1",
+    "storybook": "^9.0.18",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^3.2.4",
+    "vitest-browser-react": "^1.0.1",
+    "webdriverio": "^9.18.4"
+  }
+}
