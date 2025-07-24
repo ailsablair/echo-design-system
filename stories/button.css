@@ -2,13 +2,13 @@
   display: inline-block;
   cursor: pointer;
   border: 0;
-  border-radius: 3em;
+  border-radius: 9999em;
   font-weight: 700;
   line-height: 1;
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Archivo', Roboto Flex, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, sans-serif;
 }
 .storybook-button--primary {
-  background-color: #555ab9;
+  background-color: #000000;
   color: white;
 }
 .storybook-button--secondary {
